@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{85f11a99-6b8b-40e1-a310-4c10473e3317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{856721e1-b570-4900-9d33-a0170ecb1cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels">
+      <UniqueIdentifier>{bc1d711e-9b0c-4b00-b3ce-912fa21e4348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects">
+      <UniqueIdentifier>{4790fa87-b1e7-4cc6-be04-6b199e895419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\00.Camera_Model">
+      <UniqueIdentifier>{9d616a59-d849-4a31-8939-a07e44acc857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.ModelObject">
+      <UniqueIdentifier>{b2d15d7b-d0ce-45fb-9716-9238168a95ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Loading">
+      <UniqueIdentifier>{ee2ced46-98ce-4e2b-a705-87578b2520ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Headers">
+      <UniqueIdentifier>{d5e3b515-a4da-4e16-84bd-47df07225719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.UI">
+      <UniqueIdentifier>{f910828a-c416-40ff-bc51-b1279364050c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ShaderFiles">
+      <UniqueIdentifier>{f03c4e67-1455-4aa0-a3b9-be5670227dd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.FileSystem">
+      <UniqueIdentifier>{f2846f34-b7e8-424a-a317-dbf44a8a2f27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolModelAnim.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolModelAnim_Pch.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MapToolUI.h">
+      <Filter>96.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>01.Levels\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01.Levels\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MapTool_Defines.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Free.h">
+      <Filter>02.GameObjects\00.Camera_Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01.Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Cube.h">
+      <Filter>02.GameObjects\01.ModelObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ModelFileSystem.h">
+      <Filter>95.FileSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+    <Image Include="ToolModelAnim.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ToolModelAnim.rc">
+      <Filter>98.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ToolModelAnim.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolModelAnim_Pch.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01.Levels\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>01.Levels\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01.Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Free.cpp">
+      <Filter>02.GameObjects\00.Camera_Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MapToolUI.cpp">
+      <Filter>96.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Cube.cpp">
+      <Filter>02.GameObjects\01.ModelObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ModelFileSystem.cpp">
+      <Filter>95.FileSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\ShaderFiles\Shader_VtxAnimMesh.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\ShaderFiles\Shader_VtxMesh.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\ShaderFiles\Shader_VtxNorTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\ShaderFiles\Shader_VtxPosTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

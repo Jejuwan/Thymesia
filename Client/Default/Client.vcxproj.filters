@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{cd633420-f2f2-4dc9-a363-3b2bef6fa817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Headers">
+      <UniqueIdentifier>{7c0bf80e-1226-481c-875c-f094c9486058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{c9f1a825-9e8a-49af-8a2e-7b123ac6e4c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels">
+      <UniqueIdentifier>{5b63edef-0651-4257-8f75-a1218d86dfbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\00.Logo">
+      <UniqueIdentifier>{5136b17d-d785-47b9-852e-d4aa1e9ba601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects">
+      <UniqueIdentifier>{bd50cfe9-d2f4-4c5e-9b25-a2059a28a90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\00.BackGround">
+      <UniqueIdentifier>{8f03b74a-be0d-4b3a-a3f6-a973e49a50b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ShaderFiles">
+      <UniqueIdentifier>{47b80506-1db7-4ff2-9bc5-c86fc1a27cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\99.Camera">
+      <UniqueIdentifier>{35cc8ae8-f80d-425a-b573-5c3572e96645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02. Cube">
+      <UniqueIdentifier>{9b1b51ca-4713-4b7e-ae9e-8903a31ac1a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.MapToolUI">
+      <UniqueIdentifier>{1d2878fe-36ff-4107-bdcc-6ed3a2478326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03.Player">
+      <UniqueIdentifier>{d6ce15d3-5a7e-474c-8095-7e695ce8e352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.FileSystem">
+      <UniqueIdentifier>{b912ee03-7a21-4cea-9e64-6137efdd499a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03.Player\State">
+      <UniqueIdentifier>{09cec569-8349-4559-a03d-762da368edda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94.CallBack">
+      <UniqueIdentifier>{f52bd349-22d5-44b2-9fdf-830cd6e4c7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\01.MapTool">
+      <UniqueIdentifier>{4506c144-d81e-44b3-9564-e6024053cd5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\02.GamePlay">
+      <UniqueIdentifier>{88921314-29be-454f-8a27-60b766988d3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\04.Monster">
+      <UniqueIdentifier>{d803b29a-8b63-439d-9627-5f99ff33a781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\04.Monster\State">
+      <UniqueIdentifier>{826ea6f0-e0dd-45d4-be41-b10407a55703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\00.BackGround\01.Terrain">
+      <UniqueIdentifier>{287f0632-7bd5-43a4-9949-227544a1f5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\00.Logo\99.Loading">
+      <UniqueIdentifier>{cfe5f9c8-d427-430b-8111-788ea4d8b296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\00.Logo\99.Loading\Loader">
+      <UniqueIdentifier>{5d9be066-e692-41c3-a232-925425d95675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\04.Monster\Bat">
+      <UniqueIdentifier>{db623ec7-7e48-441a-8e6a-30f88e63daf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\04.Monster\Bat\State">
+      <UniqueIdentifier>{5cbda0e2-c840-4fb3-b3d2-7c783e2c2130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\05.Effect">
+      <UniqueIdentifier>{6d032ee4-a375-4286-8423-e574d2577c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\06.UI">
+      <UniqueIdentifier>{97a902b1-b1b5-4dc3-80ea-8a319a8a2632}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Client_Pch.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01.Levels\02.GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>01.Levels\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01.Levels\00.Logo\99.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>01.Levels\00.Logo\99.Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BackGround.h">
+      <Filter>02.GameObjects\00.BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h">
+      <Filter>02.GameObjects\00.BackGround\01.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Camera_Free.h">
+      <Filter>02.GameObjects\99.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Cube.h">
+      <Filter>02.GameObjects\02. Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MapToolUI.h">
+      <Filter>96.MapToolUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FileSystem.h">
+      <Filter>95.FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>02.GameObjects\03.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_MapTool.h">
+      <Filter>01.Levels\01.MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain_Corvus.h">
+      <Filter>02.GameObjects\00.BackGround\01.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster.h">
+      <Filter>02.GameObjects\04.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerAttackState.h">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerIdleState.h">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerState.h">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerWalkState.h">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SimulationEventCallback.h">
+      <Filter>94.CallBack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterState.h">
+      <Filter>02.GameObjects\04.Monster\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterIdleState.h">
+      <Filter>02.GameObjects\04.Monster\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Player.h">
+      <Filter>02.GameObjects\99.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterWalkState.h">
+      <Filter>02.GameObjects\04.Monster\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterAttackState.h">
+      <Filter>02.GameObjects\04.Monster\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterDeadState.h">
+      <Filter>02.GameObjects\04.Monster\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerAvoidState.h">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerHurtState.h">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterHurtState.h">
+      <Filter>02.GameObjects\04.Monster\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerParryState.h">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Villager_F.h">
+      <Filter>02.GameObjects\04.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Villager_M.h">
+      <Filter>02.GameObjects\04.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Gardener.h">
+      <Filter>02.GameObjects\04.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Joker.h">
+      <Filter>02.GameObjects\04.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerPlunderState.h">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerRavenState.h">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerPlagueState.h">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterStunState.h">
+      <Filter>02.GameObjects\04.Monster\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerExecuteState.h">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bat.h">
+      <Filter>02.GameObjects\04.Monster\Bat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BatIdleState.h">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BatIntroState.h">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BatWalkState.h">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BatAttackState.h">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Client_Struct.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BatState.h">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BatSonicBoomState.h">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BatBiteState.h">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BatChargeState.h">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BatJumpState.h">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BatScreamState.h">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bat_BoomBall.h">
+      <Filter>02.GameObjects\04.Monster\Bat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BatStunState.h">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BatDeadState.h">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ShaderFiles\Shader_Defines.hpp">
+      <Filter>97.ShaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Snow_Red.h">
+      <Filter>02.GameObjects\05.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI.h">
+      <Filter>02.GameObjects\06.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerHpBar.h">
+      <Filter>02.GameObjects\06.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect.h">
+      <Filter>02.GameObjects\05.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Boss_Bat.h">
+      <Filter>01.Levels\02.GamePlay</Filter>
+    </ClInclude>
+    <!-- <ClInclude Include="..\Client\Public\Player.h">
+      <Filter>02.GameObjects\03.Player</Filter>
+    </ClInclude> -->
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Client_Pch.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01.Levels\02.GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>01.Levels\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01.Levels\00.Logo\99.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BackGround.cpp">
+      <Filter>02.GameObjects\00.BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp">
+      <Filter>02.GameObjects\00.BackGround\01.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Camera_Free.cpp">
+      <Filter>02.GameObjects\99.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Cube.cpp">
+      <Filter>02.GameObjects\02. Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MapToolUI.cpp">
+      <Filter>96.MapToolUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FileSystem.cpp">
+      <Filter>95.FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>02.GameObjects\03.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_MapTool.cpp">
+      <Filter>01.Levels\01.MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain_Corvus.cpp">
+      <Filter>02.GameObjects\00.BackGround\01.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster.cpp">
+      <Filter>02.GameObjects\04.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerAttackState.cpp">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerIdleState.cpp">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerState.cpp">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerWalkState.cpp">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SimulationEventCallback.cpp">
+      <Filter>94.CallBack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterState.cpp">
+      <Filter>02.GameObjects\04.Monster\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterHurtState.cpp">
+      <Filter>02.GameObjects\04.Monster\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterIdleState.cpp">
+      <Filter>02.GameObjects\04.Monster\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Player.cpp">
+      <Filter>02.GameObjects\99.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterWalkState.cpp">
+      <Filter>02.GameObjects\04.Monster\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterAttackState.cpp">
+      <Filter>02.GameObjects\04.Monster\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterDeadState.cpp">
+      <Filter>02.GameObjects\04.Monster\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerAvoidState.cpp">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerHurtState.cpp">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerParryState.cpp">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Villager_F.cpp">
+      <Filter>02.GameObjects\04.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Villager_M.cpp">
+      <Filter>02.GameObjects\04.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Gardener.cpp">
+      <Filter>02.GameObjects\04.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Joker.cpp">
+      <Filter>02.GameObjects\04.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerPlunderState.cpp">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerRavenState.cpp">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerPlagueState.cpp">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterStunState.cpp">
+      <Filter>02.GameObjects\04.Monster\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerExecuteState.cpp">
+      <Filter>02.GameObjects\03.Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Boss_Bat.cpp">
+      <Filter>01.Levels\02.GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bat.cpp">
+      <Filter>02.GameObjects\04.Monster\Bat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BatIdleState.cpp">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BatIntroState.cpp">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BatWalkState.cpp">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BatAttackState.cpp">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BatState.cpp">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BatBiteState.cpp">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BatChargeState.cpp">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BatJumpState.cpp">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BatScreamState.cpp">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BatSonicBoomState.cpp">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bat_BoomBall.cpp">
+      <Filter>02.GameObjects\04.Monster\Bat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BatDeadState.cpp">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BatStunState.cpp">
+      <Filter>02.GameObjects\04.Monster\Bat\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect.cpp">
+      <Filter>02.GameObjects\05.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Snow_Red.cpp">
+      <Filter>02.GameObjects\05.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI.cpp">
+      <Filter>02.GameObjects\06.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerHpBar.cpp">
+      <Filter>02.GameObjects\06.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>01.Levels\00.Logo\99.Loading\Loader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>98.Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\ShaderFiles\Shader_VtxAnimMesh.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\ShaderFiles\Shader_VtxMesh.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\ShaderFiles\Shader_VtxNorTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\ShaderFiles\Shader_VtxPosTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\ShaderFiles\Shader_VtxMeshAlpha.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\ShaderFiles\Shader_Deferred.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\ShaderFiles\Shader_VtxRectInstance.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\ShaderFiles\Shader_VtxPointInstance.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\ShaderFiles\Shader_VtxCubeTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\ShaderFiles\Shader_Navigation.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

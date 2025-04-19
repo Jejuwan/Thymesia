@@ -1,0 +1,5 @@
+float4 color = g_NormalTex.Sample(sample0,input.uv);
+
+ color.b = sqrt(1 - saturate(dot(color.rg, color.rg)));
+
+로 파랑 뽑기
